@@ -5,32 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container{
-           border: 2px solid salmon;
-           display: flex;
-           justify-content: space-around;
-           align-items:center;
-           height:250px;
-          /* flex-direction: ;
-           flex-direction: row-reverse;*/
-           /* flex-wrap:wrap; wrap-reverse*/
+        nav{
+            display: flex;
+           justify-content:space-between ; 
         }
-        .box{
-            width:100px;
-            height:100px;
-            border:2px dashed tomato;
+        nav a{
+            text-decoration:none;
+
+        }
+        .login-from{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+        .login-from input{
+            margin-top: 20px;
+            flex-direction: column;
+        }
+        .login-con{
+            display: flex;
+            justify-content: center;
+            /*border: 1px solid rgb(89, 65, 243);*/
+            height:90vh;
+            align-items: center;
+
         }
     </style>
 </head>
 <body>
-    <h1>Flexbox Layout</h1>
-    <div class="container">
-        <div class="box">box-1</div>
-        <div class="box">box-2</div>
-        <div class="box">box-3</div>
-        <div class="box">box-4</div>
-        <div class="box">box-5</div>
-        <div class="box">box-6</div>
-    </div>
+    <nav>
+         <div>
+        <a href="">Home</a>
+        <a href="">Profile</a>
+        <a href="">About</a>
+        <a href="">Bolg</a>
+         </div>
+        <a href="">Login</a>
+    </nav>
+    <section class="login-con">
+        <from class="login-from">       
+            <h3>plese login</h3>
+            <input type="email" name="" id="" placeholder="your email">
+            <input type="Password" placeholder="password">
+            <input type="submit" value="login">
+    
+        </from>
+    </section>
 </body>
 </html>
