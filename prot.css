@@ -1,0 +1,175 @@
+*{
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 245, 245)
+}
+.navbar{
+    background: rgb(27, 27, 27);
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.navdiv{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    color: bisque;
+}
+.list-1{
+    list-style:none;
+    display:inline-block;
+    padding: 15px;
+    color: bisque;
+    font-size: 18px;
+    font-weight: bold;
+}
+button{
+    background-color: yellow;
+    border-radius: 15px;
+    height:30px;
+    width:100px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+}
+.flexbox-1{
+    height:;
+    width:650px;
+    background-color: rgb(2, 2, 2);
+    color: beige;
+    padding:20px;
+}
+.p-1{
+    font-size: 20px;
+}
+.h1-1{
+    font-size: 60px;
+}
+img{
+    height: 450px
+}
+.flexbox-2{
+    height:;
+    background-color: rgb(19, 18, 18);
+    width: 650px;
+    color: rgb(209, 209, 29);
+    
+}
+.section-1{
+    display:flex;
+    justify-content: space-between;
+}
+.section-2{
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+.section-3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding:20px;
+    gap:20px;
+    max-width: 1200px;
+    margin:auto;
+}
+.card{
+    border:1px solid;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(243, 236, 236);
+    padding:20px;
+    box-shadow: 0px 4px 6px;
+    background-color: rgb(0, 0, 0);
+}
+/*section-4*/
+.section-4{
+    text-align:center;
+    color: white;
+}
+.section-5{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+    max-width: 1200px;
+    margin: auto;
+}
+.card-1{
+    background-color:rgb(22, 20, 20);
+    border: 1px solid #0e0c0c;
+    border-radius: 0px;
+    padding: 20px;
+    height:100px;
+    width: 250px;
+}
+
+/*section-6*/
+
+.section-6{
+    text-align: center;
+    color: beige;
+}
+
+/*section-7*/
+
+.section-7{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding:20px;
+    gap:20px;
+    max-width: 1200px;
+    margin:auto;
+}
+.card-2{
+    border:1px solid;
+    text-align:center;
+    border-radius:20px;
+    padding:20px;
+    color:
+}
+.section-8{
+    display:grid;
+    grid-template-rows: repeat(5, 1fr);
+    padding:20px;
+    gap:20px;
+}
+.card-3{
+    border-top: 2px solid;
+    border-bottom: 2px soli;
+    padding:10px;
+    color:
+
+}
+.section-9{
+    display:flex;
+    grid-template-columns: repeat(4,1fr);
+    padding:40px;
+    gap:15%;
+    
+}
+.list{
+    color:rgb(161, 19, 19);
+    padding:0px;
+    list-style: none;
+
+}
+
+.dot{
+    list-style: none;
+}
+
+
+.list-fot{
+    display: flex;
+    justify-content: space-between; /* আইটেমগুলিকে বাম ও ডান প্রান্তে সরাবে */
+    list-style: none; /* লিস্ট স্টাইল (ডিফল্ট বুলেট পয়েন্ট) রিমুভ করবে */
+    padding: 20px; /* ডিফল্ট প্যাডিং রিমুভ করবে */
+    margin: 0px; /* ডিফল্ট*/
+}
+.list-for{
+
+}
+     
