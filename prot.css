@@ -128,7 +128,7 @@ img{
     text-align:center;
     border-radius:20px;
     padding:20px;
-    color:
+    color:;
 }
 .section-8{
     display:grid;
@@ -140,7 +140,7 @@ img{
     border-top: 2px solid;
     border-bottom: 2px soli;
     padding:10px;
-    color:
+    color:;
 
 }
 .section-9{
@@ -169,7 +169,5 @@ img{
     padding: 20px; /* ডিফল্ট প্যাডিং রিমুভ করবে */
     margin: 0px; /* ডিফল্ট*/
 }
-.list-for{
-
-}
+ 
      
